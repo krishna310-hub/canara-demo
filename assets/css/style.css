@@ -11,11 +11,12 @@
 Font load
 ===========*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 :root {
   --tz-body-color: #74787c;
   --tz-title-color: #1a1a1a;
-  --tz-heading: "Inter", sans-serif;
-  --tz-body-font: "Inter", sans-serif;
+  --tz-heading: "Plus Jakarta Sans", sans-serif;
+  --tz-body-font: "Plus Jakarta Sans", sans-serif;
   --tz-prime-c: #1842b6;
   --cube-1: cubic-bezier(0.55, 0.085, 0, 0.99);
   --cube-2: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -6192,7 +6193,7 @@ a:focus {
   }
 }
 .tz-sponsor-item:is(.ver_3) {
-  background-color: #fff;
+  background-color: rgb(24 66 182 / 10%);
 }
 .tz-sponsor-item:is(.ver_3) .item-img {
   height: 120px;
@@ -12444,7 +12445,7 @@ a:focus {
   margin: 0px 80px;
   overflow: hidden;
   padding: 40px 0px;
-  background-color: var(--tz-prime-c);
+  background-color: #fff;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
@@ -15734,4 +15735,11 @@ a:focus {
 
 .brand-logo img {
   width: 120px;
+}
+
+.tz-sponsor-item .item-img img {
+  width: 130px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 5px;
 }
