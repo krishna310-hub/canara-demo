@@ -5272,10 +5272,10 @@ a:focus {
 }
 
 .tz-ser1-item {
-  opacity: 0;
+  opacity: 1;
   gap: 30px 100px;
-  -webkit-transform: translateY(100%);
-  transform: translateY(100%);
+  /* -webkit-transform: translateY(100%);
+  transform: translateY(100%); */
   padding: 40px 60px 40px 100px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   -webkit-transition: all 500ms;
@@ -5285,11 +5285,11 @@ a:focus {
   background-color: var(--tz-prime-c);
   border-bottom: 1px solid var(--tz-prime-c);
 }
-.tz-ser1-item:is(.in-view) {
+/* .tz-ser1-item:is(.in-view) {
   -webkit-transform: translateY(0);
   transform: translateY(0);
   opacity: 1;
-}
+} */
 @media only screen and (min-width: 992px) and (max-width: 1199px),
   only screen and (min-width: 768px) and (max-width: 991px),
   only screen and (min-width: 576px) and (max-width: 767px),
