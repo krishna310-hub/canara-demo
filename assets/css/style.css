@@ -12121,7 +12121,11 @@ a:focus {
     from(rgba(5, 9, 26, 0)),
     to(#05091a)
   );
-  background: linear-gradient(270deg, rgba(5, 9, 26, 0) 0%, #05091a 100%);
+  background: linear-gradient(
+    270deg,
+    rgba(5, 9, 26, 0) 0%,
+    var(--tz-prime-c) 190%
+  );
 }
 .tz-h5-slide-item .item-img img {
   width: 100%;
@@ -13875,7 +13879,7 @@ a:focus {
     from(rgba(5, 9, 26, 0.3)),
     to(#05091a)
   );
-  background: linear-gradient(270deg, rgba(5, 9, 26, 0.3) 0%, #05091a 100%);
+  background: linear-gradient(270deg, rgba(5, 9, 26, 0.3) 0%, #1842b6 170%);
 }
 
 .tz-breadcrumb-content {
