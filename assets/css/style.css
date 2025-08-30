@@ -6187,7 +6187,7 @@ a:focus {
   background-color: #f6f6f6;
 }
 .tz-sponsor-item .item-img {
-  width: 260px;
+  width: 380px;
   height: 140px;
 }
 @media (max-width: 767px) {
@@ -12456,7 +12456,7 @@ a:focus {
 .tz-sponsor5-sec {
   margin: 0px 80px;
   overflow: hidden;
-  padding: 40px 0px;
+  padding: 20px 0px;
   background-color: #fff;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
@@ -12475,6 +12475,21 @@ a:focus {
 .tz-sponsor5-sec:is(.ver_2) {
   margin: 0;
   border-radius: 0;
+}
+
+#tz-sponsor5 .tz-sponsor-item {
+  flex: 0 0 auto !important;      
+  display: inline-flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+#tz-sponsor5 .tz-sponsor-item img {
+  max-height: 80px;
+  height: auto;
+  width: auto;
+  object-fit: contain;
+  display: block;
 }
 
 /*---------------------------------------------------- */
