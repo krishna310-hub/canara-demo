@@ -7180,7 +7180,7 @@ a:focus {
   height: 100px;
   margin: 0 auto;
   border-radius: 15px;
-  margin-bottom: 55px;
+  margin-bottom: 80px;
   background-color: var(--tz-prime-c);
 }
 .tz-ser2-item .item-text h3 {
@@ -15910,4 +15910,42 @@ a:focus {
 }
 .tz-ser1-item-1 .item-img-text .item-text p {
   color: #fff;
+}
+.card-box {
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
+.card-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+.card-box h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.card-box p {
+  margin: 5px 0;
+}
+
+.card-box .read_more {
+  display: inline-block;
+  margin: 10px 10px 0;
+  padding: 8px 18px;
+  background: #0073e6;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.card-box .read_more:hover {
+  background: #005bb5;
 }
